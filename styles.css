@@ -1,0 +1,55 @@
+/* Reset de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Estilo para la información */
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+.info p#time {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2ecc71;
+}
+
+.info p#date {
+    color: #3498db;
+}
+
+.info p#location {
+    color: #9b59b6;
+}
